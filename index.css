@@ -1,0 +1,59 @@
+body {
+    background: rgb(32, 37, 65);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headbox {
+    padding: 10px 0;
+    color: white;
+    background: rgb(139, 0, 253);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: large;
+}
+
+.main-con {
+    width: 90%;
+    height: 100px;
+    background: rgb(46, 54, 94);
+    margin: 10px 0;
+    border-radius: 2%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.main-con h3 {
+    color: rgb(174, 148, 216);
+}
+
+.main-con p {
+    color: white;
+}
